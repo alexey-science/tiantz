@@ -1,0 +1,161 @@
+html,
+body,
+address,
+blockquote,
+div,
+p,
+pre,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+dd,
+dl,
+dt,
+ul,
+ol,
+li,
+a,
+abbr,
+acronym,
+b,
+big,
+br,
+cite,
+code,
+del,
+dfn,
+em,
+i,
+ins,
+kbd,
+q,
+samp,
+small,
+span,
+strong,
+sub,
+sup,
+tt,
+var,
+object,
+caption,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+form,
+footer,
+nav,
+section,
+input,
+textarea,
+select,
+button,
+fieldset,
+legend,
+label,
+font,
+u,
+s,
+center,
+dir,
+menu,
+strike,
+xmp {
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	text-indent: 0;
+	text-decoration: none;
+	list-style-type: none;
+	border: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+hr,
+img,
+object {
+	border: 0;
+}
+
+input,
+select,
+button {
+	vertical-align: middle;
+	border: 0;
+	outline: 0;
+}
+
+textarea {
+	vertical-align: top;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+ol li {
+	list-style-type: decimal;
+	list-style-position: inside;
+}
+
+a,
+a:active {
+	outline: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+input,
+textarea {
+	outline-style: none;
+	resize: none;
+}
+
+html {
+	height: 100%;
+	font-size: 10px;
+}
+body{
+	height: 100%;
+}
+
+header,
+section,
+footer,
+nav,
+article,
+aside {
+	display: block;
+}
+
+.main {
+	position: relative;
+	min-height: 100%;
+	margin-bottom: -162px;
+	padding-bottom: 162px;
+}
+
+* html .main {
+	height: 100%;
+}
+
+footer {
+	position: relative;
+	height: 162px;
+	margin-top: -162px;
+	overflow: hidden;
+}
